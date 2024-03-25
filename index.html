@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center>
+    <div class="div">
+    <h1>Calculator by Hasan</h1>
+</div>
+    <main class="calculator">
+    <div id="display"></div>
+    <div class="button-row">
+      <button onclick="keypress('7')">7</button>
+      <button onclick="keypress('8')">8</button>
+      <button onclick="keypress('9')">9</button>
+      <button onclick="keypress('+')">+</button>
+    </div>
+    <div class="button-row">
+      <button onclick="keypress('4')">4</button>
+      <button onclick="keypress('5')">5</button>
+      <button onclick="keypress('6')">6</button>
+      <button onclick="keypress('-')">-</button>
+    </div>
+    <div class="button-row">
+      <button onclick="keypress('1')">1</button>
+      <button onclick="keypress('2')">2</button>
+      <button onclick="keypress('3')">3</button>
+      <button onclick="keypress('*')">*</button>
+    </div>
+    <div class="button-row">
+      <button onclick="keypress('0')">0</button>
+      <button onclick="keypress('.')">.</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="keypress('/')">/</button>
+    </div>
+    <div class="button-row">
+      <button onclick="allclear()">AC</button>
+      <button onclick="removelastword()">Clear</button>
+      <button onclick="keypress('00')">00</button>
+    </div>
+  </main>
+  </center>
+  <script src="script.js"></script>
+</body>
+</html>
